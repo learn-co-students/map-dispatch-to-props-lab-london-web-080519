@@ -15,7 +15,7 @@ import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 
 describe("redux", () => {
-  it("updates the store on successful dispatch.", () => {
+  it("updates the store on successful dispatch", () => {
     let store = createStore(manageRestaurants);
 
     store.dispatch(
